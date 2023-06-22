@@ -23,6 +23,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    border-bottom: 0.5px solid #fff;
 }
 
   
@@ -162,6 +163,9 @@ header {
   #current-situation {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
   }
   
   #current-situation h1 {
@@ -170,11 +174,19 @@ header {
     text-align: center;
     margin-bottom: 25px;
   }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value if needed */
+  }
+ 
   
   .federal {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    margin-left: 50%;
   }
   
   .federal h2 {
@@ -190,6 +202,14 @@ header {
     padding-left: 20px;
     margin: 10px 0;
     color: #282727;
+  }
+
+ #prevalence .centered .current ul {
+    list-style-type: disc;
+    font-size: 18px;
+    padding-left: 20px;
+    margin: 10px 0;
+    color: #ffffff;
   }
  
  
@@ -337,9 +357,7 @@ header {
 
 }
 
-#impact{
-  margin-top: 200px;
-}
+
 
 .hero{
   display: flex;
@@ -377,5 +395,21 @@ header {
 
 }
 
+#prevalence {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background: #030303;
+  height: 100vh;
+}
+#prevalence .text h1{
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8f8f8;
+ 
+
+}
 
 
