@@ -197,12 +197,13 @@ header {
     margin-right: 20px;
   }
   
-  .federal ul {
+ .centered .federal ul {
     list-style-type: disc;
-    font-size: 18px;
+    font-size: 30px;
     padding-left: 20px;
     margin: 10px 0;
     color: #282727;
+
   }
 
  #prevalence .centered .current ul {
@@ -375,8 +376,9 @@ header {
 }
 
 .detel{
-  margin-left: 15%;
-  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 .images .head h1{
@@ -387,9 +389,10 @@ header {
 
 .detel p{
   color: #000000;
-  line-height:  1.2em;
+  line-height:  0.9em;
   font-size: 30px;
-  width: 100%;
+  width: 70%;
+  text-align: left;
 }
 
 .images img{
@@ -399,14 +402,15 @@ header {
 
 }
 
-
 #prevalence {
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  background: #030303;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(key.jpg);
+  background-size: cover;
   height: 100vh;
 }
+
 #prevalence .text{
   display: flex;
   justify-content: center;
