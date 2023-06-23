@@ -395,7 +395,7 @@ header {
 }
 
 .images img{
-  width: 1500px;
+  width: 900px;
   border-radius: 20px;
   box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
 
@@ -531,6 +531,9 @@ header {
       font-size: 15px;
 
   }
+  .images img{
+    width: 500px;
+  }
 
   #prevalence .text h1{
       font-size: 36px ;
@@ -548,6 +551,12 @@ header {
   }
   #prevalence .text h1{
     font-size: 26px ;
+}
+.intro p{
+  font-size: 11px ;
+}
+.images img{
+  width: 200px;
 }
 }
 
