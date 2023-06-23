@@ -457,9 +457,10 @@ header {
 
 }
 .text img{
-  width: 60px;
-  height: 80px;
-  margin-top: 2.6em;
+  width: 30px;
+  height: 40px;
+  margin-top: 1.5em;
+
 }
 
 .container1 {
@@ -540,6 +541,10 @@ header {
   }
   .logo h1{
     font-size: 12px;
+  }
+  .text-container img{
+    width: 20px;
+    height: 30px;
   }
  
  
