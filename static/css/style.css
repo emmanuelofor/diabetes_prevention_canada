@@ -115,6 +115,7 @@ header {
     justify-content: center;
     justify-self: center;
     justify-items: center;
+    font-size: 11px;
 }
 #key-players {
   margin-top: 1px;
@@ -414,9 +415,13 @@ header {
 }
 
 .intro p{
-  width: 800px;
+  width: 1000px;
   color: #fff;
   font-size: 24px;
+  margin-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2em;
+
 }
 .button {
   display: inline-block;
@@ -443,3 +448,42 @@ header {
   margin-top: 2.6em;
 }
 
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ .container1 h1{
+  font-size: 48px;
+  color: #000000;
+  margin-bottom: 25px;
+
+}
+.container1 p{
+  width: 1000px;
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 2em;
+ 
+
+}
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff; 
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; 
+}
+
+.button1:hover {
+  background-color: #fc2200; 
+  color: #fff;
+}
+#conclusion{
+  margin-top: 10em;
+
+}
