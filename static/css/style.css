@@ -203,7 +203,6 @@ header {
     padding-left: 20px;
     margin: 10px 0;
     color: #282727;
-
   }
 
  #prevalence .centered .current ul {
@@ -406,9 +405,8 @@ header {
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)), url(key.jpg);
-  background-size: cover;
-  height: 100vh;
+  align-items: center;
+  background: #030303;
 }
 
 #prevalence .text{
@@ -524,3 +522,32 @@ header {
   font-size: 24px;
   margin-bottom: 2em;
 }
+
+@media screen and (max-width: 1629px) {
+  #prevalence{
+    width: 100%;
+  }
+  header nav li a{
+      font-size: 15px;
+
+  }
+
+  #prevalence .text h1{
+      font-size: 36px ;
+  }
+  .logo h1{
+    font-size: 12px;
+  }
+ 
+ 
+}
+
+@media screen and (max-width: 963px) {
+  .logo h1{
+    display: none;
+  }
+  #prevalence .text h1{
+    font-size: 26px ;
+}
+}
+
