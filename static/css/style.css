@@ -6,8 +6,8 @@ body {
     line-height: 1.6em;
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;
     height: 100vh;
 
     
@@ -25,6 +25,7 @@ header {
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
@@ -101,13 +102,13 @@ header {
     
   }
   footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
     background: #111;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 5px;
     color: #fff;
     display: flex;
@@ -257,6 +258,7 @@ header {
 
   .wrapper{
     text-align: center;
+    margin-top: 100px;
   }
   
   .wrapper h1{
@@ -370,6 +372,7 @@ header {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 
 }
 
@@ -410,6 +413,7 @@ header {
 
 #prevalence .text{
   display: flex;
+  margin-top: 100px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -425,6 +429,9 @@ header {
 
 }
 
+.wrapper1{
+  margin-top: 100px;
+}
 
 .intro p{
   width: 1000px;
@@ -461,11 +468,15 @@ header {
   margin-top: 1.5em;
 
 }
+.Current-top{
+  margin-top: 100px;
+}
 
 .container1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   
 }
 
@@ -510,6 +521,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 100px;
 }
 #needed .container h1{
   font-size: 48px;
@@ -535,7 +547,6 @@ header {
   border: 2px solid #000000;
   
 
-  
 
 
 }
@@ -581,3 +592,7 @@ header {
 }
 }
 
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+
+}
