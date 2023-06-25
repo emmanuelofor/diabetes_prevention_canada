@@ -11,6 +11,9 @@ body {
     
     
 }
+html{
+  scroll-behavior: smooth;
+}
 
 /* Header Styles */
 header {
@@ -293,6 +296,7 @@ header {
     padding: 5px;
     position: relative;
     cursor: pointer;
+    z-index: 10000;
   }
   
   .our_team .team_member .member_img img{
@@ -522,6 +526,23 @@ header {
   color: #000000;
   font-size: 24px;
   margin-bottom: 2em;
+}
+
+#needed .container .image img{
+  border: 2px solid #fc2200;
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  
+
+
+}
+
+#needed .container .image img:hover{
+  border: 2px solid #000000;
+  
+
+  
+
+
 }
 
 @media screen and (max-width: 1629px) {
