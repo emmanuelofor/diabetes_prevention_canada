@@ -102,7 +102,7 @@ header {
     
   }
   footer{
-    position: sticky;
+    position: static;
     bottom: 0;
     left: 0;
     right: 0;
@@ -130,7 +130,7 @@ header {
   }
   
   #key-players  .title-container h1 {
-    font-size: 48px;
+    font-size: 40px;
     color: #201f1f;
     
   }
@@ -165,8 +165,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    justify-self: center;
+    align-items: center;
   }
   
   #current-situation h1 {
@@ -175,19 +174,26 @@ header {
     text-align: center;
     margin-bottom: 25px;
   }
-  .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust this value if needed */
-  }
+
  
-  
   .federal {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
-    margin-left: 50%;
+    align-items: center;
+    flex-direction: column;
+    
+
+  }
+  .Current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    background: #ffffff;
+    border-right: 1px dashed rgb(246, 246, 246);
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
   }
   
   .federal h2 {
@@ -197,9 +203,9 @@ header {
     margin-right: 20px;
   }
   
- .centered .federal ul {
+ .federal ul li {
     list-style-type: disc;
-    font-size: 30px;
+    font-size: 24px;
     padding-left: 20px;
     margin: 10px 0;
     color: #282727;
@@ -604,3 +610,4 @@ header {
   --animate-duration: 2s;
 
 }
+
