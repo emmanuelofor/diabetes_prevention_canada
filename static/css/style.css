@@ -161,12 +161,7 @@ header {
    
   }
 
-  #current-situation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+ 
   
   #current-situation h1 {
     font-size: 36px;
@@ -175,19 +170,23 @@ header {
     margin-bottom: 25px;
   }
 
- 
-  .federal {
+  .Current-top{
+    margin-top: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    
-
+  
   }
+
+ .federal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+
   .Current {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   align-items: center;
     width: 24px;
     font-family: Montserrat, sans-serif;
     width: 100%;
@@ -198,23 +197,28 @@ header {
     font-size: 24px;
     color: #201f1f;
     margin-bottom: 10px;
-    margin-right: 20px;
+    text-align: center;
   }
   .federal ul{
     padding: 50px;
     margin: 10px;
-    background: #ffffff;
-    border-right: 1px dashed rgb(246, 246, 246);
+    background: #f8f8f8;
+    text-align: left;
     box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+
+
+  
 
   }
   
  .federal ul li {
-    list-style-type: disc;
+    list-style-type: none;
     font-size: 24px;
     padding-left: 20px;
     margin: 10px 0;
     color: #282727;
+    text-align: center;
+    
    
   }
 
@@ -396,7 +400,7 @@ header {
 .detel p{
   color: #000000;
   line-height:  1.5em;
-  font-size: 30px;
+  font-size: 24px;
   width: 70%;
   font-family: "Montserrat", sans-serif;
 
@@ -475,9 +479,7 @@ header {
   margin-top: 1.5em;
 
 }
-.Current-top{
-  margin-top: 100px;
-}
+
 
 .container1 {
   display: flex;
@@ -488,9 +490,10 @@ header {
 }
 
  .container1 h1{
-  font-size: 48px;
+  font-size: 40px;
   color: #000000;
   margin-bottom: 25px;
+  text-align: center;
 
 }
 .container1 p{
