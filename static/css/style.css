@@ -317,8 +317,10 @@ header {
   
   .our_team .team_member p{
     margin-top: 20px;
-    font-size: 14px;
-    line-height: 20px;
+    text-align:left ;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: "Montserrat", sans-serif;
   }
   
   .our_team .team_member .member_img .social_media{
@@ -390,9 +392,11 @@ header {
 
 .detel p{
   color: #000000;
-  line-height:  0.9em;
+  line-height:  1.5em;
   font-size: 30px;
   width: 70%;
+  font-family: "Montserrat", sans-serif;
+
   text-align: left;
 }
 
@@ -439,7 +443,7 @@ header {
   font-size: 24px;
   margin-bottom: 2em;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.2em;
+  line-height: 1.5em;
 
 }
 
@@ -490,6 +494,8 @@ header {
   width: 1000px;
   color: #000000;
   font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
   margin-bottom: 2em;
  
 
@@ -532,6 +538,8 @@ header {
   width: 1000px;
   color: #000000;
   font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
   margin-bottom: 2em;
 }
 
