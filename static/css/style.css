@@ -205,6 +205,7 @@ header {
     background: #f8f8f8;
     text-align: left;
     box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    list-style-type: disc;
 
 
   
@@ -212,7 +213,7 @@ header {
   }
   
  .federal ul li {
-    list-style-type: none;
+    
     font-size: 24px;
     padding-left: 20px;
     margin: 10px 0;
@@ -229,7 +230,13 @@ header {
     margin: 10px 0;
     color: #ffffff;
   }
- 
+ #conclusion .text{
+  color: #f8f8f8;
+  padding: 20px;
+  background: #000000;
+  text-align: left;
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+ }
  
   
   @media screen and (min-width: 768px) {
@@ -491,14 +498,14 @@ header {
 
  .container1 h1{
   font-size: 40px;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 25px;
   text-align: center;
 
 }
 .container1 p{
   width: 1000px;
-  color: #000000;
+  color: #ffffff;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
@@ -509,8 +516,8 @@ header {
 .button1 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000000;
-  color: #ffffff; 
+  background-color: #ffffff;
+  color: #000000; 
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s ease; 
@@ -534,6 +541,8 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
+  background: #f8f8f8;
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.5);
 }
 #needed .container h1{
   font-size: 48px;
