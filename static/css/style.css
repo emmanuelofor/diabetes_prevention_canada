@@ -140,8 +140,8 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background: #030303;
-    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.5);
     padding: 25px 50px 75px 100px;
 
   }
@@ -157,7 +157,7 @@ header {
     font-size: 24px;
     padding-left: 30px;
     margin: 20px;
-    color: #ffffff;
+    color: #000000;
    
   }
 
@@ -174,6 +174,8 @@ header {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    background: #f8f8f8;
+
   
   }
 
@@ -182,6 +184,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #000000;
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.5);
 
  }
 
@@ -196,18 +200,16 @@ header {
   
   .federal h2 {
     font-size: 24px;
-    color: #201f1f;
+    color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
   }
   .federal ul{
     padding: 50px;
     margin: 10px;
-    background: #f8f8f8;
     text-align: center;
-    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
     list-style-type: disc;
-    width: 70%;
+    width: 80%;
 
 
   
@@ -219,7 +221,7 @@ header {
     font-size: 24px;
     padding-left: 20px;
     margin: 10px 0;
-    color: #282727;
+    color: #ffffff;
     text-align: left;
     
    
@@ -230,14 +232,19 @@ header {
     font-size: 18px;
     padding-left: 20px;
     margin: 10px 0;
-    color: #ffffff;
+    color: #000000;
   }
  #conclusion .text{
   color: #f8f8f8;
+  width: 100%;
   padding: 20px;
-  background: #000000;
+  background: #ffffff;
   text-align: left;
-  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.5);
  }
  
   
@@ -300,10 +307,10 @@ header {
   }
   
   .our_team .team_member{
-    width: 800px;
+    width: 2500px;
     margin: 5px;
     margin-bottom: 200px;
-    background: #fff;
+    background: #000000;
     padding: 20px 10px;
     box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
   }
@@ -333,6 +340,9 @@ header {
     line-height: 18px;
     letter-spacing: 2px;
     margin: 15px 0 0px;
+    color: #ffffff;
+
+
   }
   
   .our_team .team_member span{
@@ -340,10 +350,13 @@ header {
   }
   
   .our_team .team_member p{
+    padding: 50px;
     margin-top: 20px;
     text-align:left ;
     font-size: 18px;
     line-height: 1.5em;
+    color: #fff;
+    text-align: justify;
     font-family: "Montserrat", sans-serif;
   }
   
@@ -391,6 +404,8 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  background: #f8f8f8;
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.5);
 
 }
 
@@ -412,8 +427,7 @@ header {
   font-size: 24px;
   width: 70%;
   font-family: "Montserrat", sans-serif;
-
-  text-align: left;
+  text-align: justify;
 }
 
 .images img{
@@ -451,6 +465,7 @@ header {
 
 .wrapper1{
   margin-top: 100px;
+  
 }
 
 .intro p{
@@ -460,6 +475,7 @@ header {
   margin-bottom: 2em;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
+  text-align: justify;
 
 }
 
@@ -495,31 +511,33 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  background: #f8f8f8;
   
 }
 
  .container1 h1{
   font-size: 40px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 25px;
   text-align: center;
 
 }
 .container1 p{
   width: 1000px;
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
   margin-bottom: 2em;
+  text-align: justify;
  
 
 }
 .button1 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ffffff;
-  color: #000000; 
+  background-color: #000000;
+  color: #fff1f1; 
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s ease; 
@@ -543,21 +561,22 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
-  background: #f8f8f8;
+  background: #000000;
   box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.5);
 }
 #needed .container h1{
   font-size: 48px;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 25px;
 }
 #needed .container p{
   width: 1000px;
-  color: #000000;
+  color: #ffffff;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
   margin-bottom: 2em;
+  text-align: justify;
 }
 
 #needed .container .image img{
@@ -569,7 +588,7 @@ header {
 }
 
 #needed .container .image img:hover{
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   
 
 
